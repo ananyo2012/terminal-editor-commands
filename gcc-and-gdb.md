@@ -78,4 +78,5 @@ ENTER | Execute last command
 `b file.c:n if i >= ARRAYSIZE` | Conditional breakpoint
 q | quit gdb  
 
-
+#### References
+http://www.unknownroad.com/rtfm/gdbtut/
