@@ -57,16 +57,16 @@ n | excute next statement
 c | continue excution (Step Over)
 step | Step into next funtion (Step into)
 finish | finish function execution and return to it's caller. Shows what value the function returned (Step out)
-ignore <k> [n] | skips breakpoint `k`, `n` no of times. `k` is the no that shows up in `info b`
-disable <k> | disables a breakpoint `k`
-enable <k> | enables a breakpoint `k`
-delete <k> | deletes a breakpoint `k`
-p <var> | prints the value of a variable
+ignore k n | skips breakpoint `k`, `n` no of times. `k` is the no that shows up in `info b`
+disable k | disables a breakpoint `k`
+enable k | enables a breakpoint `k`
+delete k | deletes a breakpoint `k`
+p var | prints the value of a variable
 list | Shows 10 lines above and below breakpoint
 set x=1 | sets the value of the variable `x`
 call func() | call func() (any linked function), can be standard lib or user defined
 backtrace/bt | see call stack
-frame <n> | go to frame n in stack
+frame n | go to frame n in stack
 info frame | Displays info about current stack frame
 info args | Shows the value of arguments in the function
 info locals | Shows the value of locals
