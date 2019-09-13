@@ -76,5 +76,6 @@ awatch x | Sets a read/write watchpoint for x
 core <filename> | Debug a coredump
 ENTER | Execute last command
 `b file.c:n if i >= ARRAYSIZE` | Conditional breakpoint
+q | quit gdb  
 
 
