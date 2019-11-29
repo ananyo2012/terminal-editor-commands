@@ -88,6 +88,8 @@
 | ?\<ENTER\> | search the searchterm backward |
 | /\<ENTER\> | search the searchterm forward |
 | ?\<searchterm\>\<ENTER\> | Search the searchterm backward |
+| /\<searchterm\>\c | Case insensitive search |
+| /\<searchterm\>\C | Case sensitive search |
 | :s/oldstring/newstring | replace oldstring with new string |
 | :s/oldstring/newstring/g | replace all occurences of  oldstring with new string in the line |
 | :1,$s/oldstring/newstring/g | replace all occurences of  oldstring with new string in all lines |
